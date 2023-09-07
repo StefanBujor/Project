@@ -1,0 +1,10 @@
+.container_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 13px;
+  margin: 31px auto;
+}
+
+.categories_container h2{
+  margin-left: 31px;
+}

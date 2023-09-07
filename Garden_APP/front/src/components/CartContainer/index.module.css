@@ -1,0 +1,102 @@
+.cart_container{
+    display: flex;
+    margin-top: 34px;
+}
+
+.cart_form{
+    width: 496px;
+    height: 393px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    border: 2px solid #000;
+}
+
+.cart_form h3{
+    margin: 25px 0 0 25px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+}
+
+.cart_form>div{
+    display: flex;
+    align-items: center;
+    margin: 47px 25px;
+}
+
+.cart_form>div>p:nth-child(1){
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    letter-spacing: 0.72px;
+}
+
+.cart_form>div>p:nth-child(2){
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.96px;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_item>input{
+    width: 446px;
+    height: 73px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #929292;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.54px;
+    padding-left: 25px;
+    margin: 0 25px;
+}
+
+.form_item>button{
+    display: flex;
+    width: 446px;
+    padding: 20px 185px 20px 143px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 17px;
+    background: #393;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.84px;
+    margin: 25px 25px;
+    cursor: pointer;
+} 
+
+.cart>a{
+    margin-left: 649px;
+}
+
+.cart>h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    margin-left: 31px;
+}

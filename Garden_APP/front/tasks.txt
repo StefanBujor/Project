@@ -1,0 +1,27 @@
+1. Установить библиотеки npm i react-router-dom redux react-redux redux-thunk
+2. Создать MainPage, CategoriesPage, AllProductsPage, ProductsByCategoryPage, SingleProductPage, CartPage, NotFoundPage. Настроуить роутинг
+3. Создать NavMenu (Main, Categories, All product, Cart)
+4. Создать redux store
+5. Отправить запрос по ссылке https://fakestoreapi.com/products/categories и получить категории
+6. Отрисовать карточки категорий на странице CategoriesPage + поднять наименования категорий в верхний регистр
+7. При клике на карточку категории (CategoryCard) перебрасывать на ProductsByCategoryPage
+8. При переходе на страницу ProductsByCategoryPage отправлять запрос по ссылке https://fakestoreapi.com/products/category/{category} и выводить в консоль полученные данные
+9. Поместить полученные данные в состояние / создать редьюсер productsByCategoryReducer
+10. Из состояния в productsByCategoryReducer отрисовать карточки продуктов (ProductsContainer и ProductCard)
+11. При клике на карточку товара открывать страницу с подробным описанием товара:
+  - При клике на карточку перебрасывать на роут /products/:id
+  - Создать singleProductReducer
+  - Написать запрос по ссылке https://fakestoreapi.com/products/{id}
+  - Отрисовать контент карточки (на стр SingleProductPage)
+12. При клике на плашку категории перебрасывать на страницу с продуктами этой категории
+13. Добавить в двух местах кнопку "Add to cart" - на карточке товара (при наведении курсора на карточку) и на странице с подробным описанием товара
+14. Реализовать добавление товара в корзину при клике на кнопки "Add to cart" => cartReducer + отрисовка карточек (CartContainer и CartItem)
+15. Реализовать удаление, инкремент, декремент товаров в корзине
+16. На странице AllProductsPage отобразить все продукты, используя ProductCard и ProductsContainer
+17. На страницу со всеми продуктами (AllProductsPage) добавить форму AddProductForm с тремя инпутами - title, price, image. description и category - значение по умолчанию.
+При сабмите формы формируется объект (для отправки пост запроса) и выводится в консоль
+18. В allProductsReducer добавить addProductAction - добавление в состояние нового объекта
+19. Написать пост-запрос по ссылке https://fakestoreapi.com/products'
+20. Создать селект для сортировки продуктов, написать функцию, которая считывает value из выбранного option и выводит его в консоль
+21. Написать sortProductsAction, который принимает считанный value из селекта и сортирует по нему состояние
+

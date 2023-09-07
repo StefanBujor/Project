@@ -1,0 +1,43 @@
+.section {
+    background-color: #A1E2EB;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg_img {
+    background-image: url(../../assets/banner.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 679px;
+}
+.container {
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 130px;
+}
+.title {
+    color: #FFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+.title span {
+    font-size: 63px;
+    color: #FFF;
+}
+.btnLink_to_sale {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 25px 97px;
+    border-radius: 13px;
+    background: #FFF;
+    margin-top: 55px;
+    display: inline-block;
+}

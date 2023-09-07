@@ -1,0 +1,83 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 147px;
+    display: flex;
+    gap: 14%;
+    padding: 27px 91px 27px 0px;
+    justify-content: space-around;
+}
+.section {
+    background: linear-gradient(223deg, #3CBF3C 0%, #096D09 100%);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form h2{
+    color: #FFF;
+    font-size: 102px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95%;
+    letter-spacing: 3.06px;
+}
+.form h2 span {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1.8px;
+}
+.form_group {
+    width: 100%;
+    margin-top: 15px;
+}
+.form_control {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #fff;
+    border-radius: 13px 0px 0px 13px;
+    padding: 26px 0px 26px 50px;
+    border: none;
+    width: 25%;
+
+    color: #6C6C6C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.54px;
+}
+.form_control:focus-visible {
+    outline: none;
+}
+.form_input_number {
+    border: none;
+    border-radius: 0px 13px 13px 0px;
+    padding: 26px 20px;
+    width: 75%;
+
+    color: #6C6C6C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.54px;
+}
+.form_input_number:focus-visible {
+    outline: none;
+}
+.form_submit_btn {
+    color: #FFF;
+    font-size: 30.74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.922px;
+    background-color: transparent;
+    border-radius: 25.147px;
+    border: 2.395px solid #FFF;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}

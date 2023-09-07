@@ -1,0 +1,86 @@
+.card {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.card img {
+  height: 276px;
+  width: 319px;
+  object-fit: cover;
+}
+
+.add_to_cart_btn {
+  width: 279px;
+  height: 72px;
+  top: 201px;
+  background-color: #F1FFF1;;
+  border: 2px solid #393;
+  color: #339933;
+  padding: 20px;
+  border-radius: 21px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+
+.card:hover .add_to_cart_btn {
+  display: block;
+  position: absolute;
+}
+
+.price_item{
+  display: flex;
+  align-items: center;
+}
+
+.card > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.48px;
+}
+
+.price_with_discount{
+  display: flex;
+  align-items: center;
+}
+
+.price_with_discount>p:nth-child(1){
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.1px;
+}
+
+.price_with_discount>p:nth-child(2){
+  color: #8B8B8B;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.6px;
+  text-decoration-line: line-through;
+}
+
+.price_with_discount>p:nth-child(3){
+  color: #FF32A1;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.84px;
+}
+
+.price_withuot_discount{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.1px;
+}

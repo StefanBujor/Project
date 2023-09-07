@@ -1,0 +1,38 @@
+.nav_menu {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 28px 19px;
+  height: 167px;
+}
+
+.logo_container{
+  display: flex;
+  align-items: center;
+}
+
+.nav_container{
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-left: 594px;
+}
+
+.nav_menu a {
+  text-decoration: none;
+}
+
+.catalog_btn{
+  width: 125px;
+  height: 49px;
+  padding: 14px 30px 15px 30px;
+  border-radius: 5px;
+  background-color: #339933;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 59px;
+}
+
+.cart_icon{
+  margin-left: 173px;
+}

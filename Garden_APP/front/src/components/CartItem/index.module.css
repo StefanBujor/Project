@@ -1,0 +1,72 @@
+.item {
+  border-top : 1px solid #A7A7A7;
+  border-bottom: 1px solid #A7A7A7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 824px;
+  position: relative;
+}
+
+.item button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.item img {
+  width: 190px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 10%;
+  object-fit: contain;
+}
+
+.price_withuot_discount{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; 
+  letter-spacing: 1.2px;
+}
+
+.price_with_discount{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.54px;
+}
+
+.count_btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  margin-top: 71px;
+}
+
+.count_btn>p{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.54px;
+  text-align: center;
+}
+
+.count_btn>button{
+  background: none;
+  border: none;
+  font-size: 40px;
+}
+
+.delete_card_item{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.wrapper_notfoundpage{
+    background-image: url(../../assets/404.png);
+    height: 625px;
+    object-fit: cover;
+}

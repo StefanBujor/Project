@@ -1,0 +1,88 @@
+.all_product_container>h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    margin-bottom: 81px;
+    margin-left: 31px;
+}
+
+.filter_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price_fillter{
+    background-color: #fff;
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}
+
+.form_filter>input{
+    width: 103px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #ACACAC;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.48px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.ceck_box>label>span{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+    
+}
+
+.ceck_box>label>input{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    margin-left: 39px;
+}
+
+.sorted_box>label>span{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+}
+
+.sorted_box>label>select{
+    width: 219px;
+    height: 40px;
+    margin-left: 42px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #797979;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.48px;
+    padding-left: 10px;
+}

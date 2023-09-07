@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card img {
+  width: 318px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.54px;
+}

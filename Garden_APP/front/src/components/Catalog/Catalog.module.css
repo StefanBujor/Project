@@ -1,0 +1,31 @@
+.section {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 95px;
+}
+.title {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.title_name {
+    color: #2D2D2D;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.35px;
+}
+.title_button {
+    border: 2px solid #8B8B8B;
+    color: #8B8B8B;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+    padding: 2px 10px;
+    margin-top: 9px;
+}
+
