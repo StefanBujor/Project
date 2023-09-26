@@ -3,9 +3,9 @@ import { loadProductsByCategoryAction } from "../store/reducers/productsByCatego
 import { loadSingleProductAction } from "../store/reducers/singleProductReducer"
 
 
-export const getProductsByCategory = (id) => {
+export const getProductsByCategory = (category) => {
   return dispatch => {
-    fetch(`http://localhost:3333/categories/${id}`)
+    fetch(`http://localhost:3333/categories/${category}`)
       .then(res => res.json())
       .then(json => dispatch(loadProductsByCategoryAction(json)))
   } 

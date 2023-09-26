@@ -11,14 +11,13 @@ export default function ProductsByCategoryPage() {
   const [ checked, setChecked ] = useState(false);
 
   const { category } = useParams();
-
   const dispatch = useDispatch();
+  const productsByCategory = useSelector(state => state.productsByCategory);
 
-  useEffect(() => dispatch(getProductsByCategory(category)), []);
+  useEffect(() => {
+    dispatch(getProductsByCategory(category))
+  }, [category])
 
-  const products_bycategory_state = useSelector(state => state.productsByCategory);
-
-  console.log(products_bycategory_state);
 
   const filter_price = e => {
     e.preventDefault();
@@ -36,7 +35,7 @@ export default function ProductsByCategoryPage() {
 
   return (
     <div className={s.product_bycategory_container}>
-      <h3>{products_bycategory_state.category.title}</h3>
+      <h3>{productsByCategory.category.title}</h3>
       <div className={s.filter_container}>
           <div className={s.filter_box}>
             <form onSubmit={filter_price} className={s.form_filter}>
@@ -63,7 +62,7 @@ export default function ProductsByCategoryPage() {
             </label>
           </div>
         </div>
-      <ProductsContainer products={products_bycategory_state.data} />
+      <ProductsContainer products={productsByCategory.data} />
     </div>
   )
 }

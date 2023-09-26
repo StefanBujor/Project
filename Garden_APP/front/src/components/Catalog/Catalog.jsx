@@ -17,10 +17,10 @@ const Catalog = () => {
     const catalogCategories = categories_state.slice(0, 4);
 
     return (
-        <section className={s.section} id='catalog'>
+        <section className={s.section}>
         <div className={s.title}>
             <h2 className={s.title_name}>Catalog</h2>
-            <Link className={s.title_button} to="/categories/all">All categories</Link>
+            <Link className={s.title_button} to="/categories">All categories</Link>
         </div>
         <CategoriesContainer categories={catalogCategories}/>
         </section>
