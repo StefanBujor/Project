@@ -7,7 +7,7 @@ export default function CategoryCard({ category }) {
   const { id, image, title } = category
 
   return (
-    <Link to={`/categories/:${id}`}>    
+    <Link to={`/categories/${id}`}>    
       <div className={s.card}>
 
         <img src={ `http://localhost:3333${image}` } alt={ title } />

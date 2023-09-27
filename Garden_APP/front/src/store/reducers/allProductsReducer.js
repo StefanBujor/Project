@@ -4,7 +4,6 @@ const FILTER_PRODUCTS_BY_PRICE = 'FILTER_PRODUCTS_BY_PRICE';
 const GET_DISCOUNT_PRODUCTS = 'GET_DISCOUNT_PRODUCTS';
 
 export const loadAllProductsAction = payload => ({ type: LOAD_ALL_PRODUCTS, payload });
-// export const addProductAction = payload => ({ type: ADD_PRODUCT, payload });
 export const sortProductsAction = payload => ({ type: SORT_PRODUCTS, payload });
 export const filterProductsByPriceAction = payload => ({ type: FILTER_PRODUCTS_BY_PRICE, payload });
 export const getDiscountProductsAction = payload => ({ type: GET_DISCOUNT_PRODUCTS, payload });
