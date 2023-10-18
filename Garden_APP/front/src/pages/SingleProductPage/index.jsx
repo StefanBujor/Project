@@ -30,7 +30,7 @@ export default function SingleProductPage() {
     <div className={s.single_product_container}>
       <h3>{ title }</h3>
       <div className={s.single_product}>
-        <img src={`http://localhost:3333${image}`} alt={title} />
+        <img src={`http://localhost:3333/${image}`} alt={title} />
         <div>
           <div>
             {discont_price ? 
